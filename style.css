@@ -104,6 +104,9 @@
  .fa-angle-down{
      padding-left: 8px;
  }
+.fa-angle-down:hover{
+    transform: rotateX(180deg);
+}
 
  /* <!-- category-section --> */
 
@@ -207,9 +210,7 @@
     width: 150px;
     height: 150px;
 }
-.fa-angle-down:hover{
-    transform: rotateX(180deg);
-}
+
  
 /* <!-- footer --> */
 footer{
